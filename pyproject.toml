@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "requrse-scraping"
+version = "0.1.0"
+description = ""
+authors = ["Ihor Voitiuk"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "requrse_scraping"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+bs4 = "^0.0.1"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

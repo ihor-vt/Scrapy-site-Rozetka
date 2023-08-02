@@ -1,0 +1,1 @@
+Parse site Rozetka
