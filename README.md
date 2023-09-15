@@ -22,7 +22,7 @@ This project uses web harvesting to retrieve and store data from the Rozetka web
    pip install -r requirements.txt
    ```
 
-3. Open the `main.py` file and configure the following variables:
+3. Open the `scraping_script.py` file and configure the following variables in main() function:
 
    - `URL`: The URL of the "Notebooks" category on Rozetka.
    - `COUNT_PAGES`: The number of pages to parse.
